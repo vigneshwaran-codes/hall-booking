@@ -29,6 +29,6 @@ app.use('/api', bookingRouter)
 
 /*    { HomePage}   */
 app.get('/', (req, res) => {
-  res.send('Welcome !!!')
+  res.send('Welcome to Hall-Booking ')
 })
 app.listen(PORT, () => console.log('the Server is Connected Successfully', PORT))
